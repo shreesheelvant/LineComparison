@@ -4,7 +4,7 @@ package com.bridgelabz;
 import java.util.Scanner;
 
 public class CalculateLength {
-    public static void calculateLengthUC3() {
+    public static void compareLines() {
         System.out.println("Calculate Length between two points");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter x1 : ");
@@ -41,7 +41,8 @@ public class CalculateLength {
     }
 
     public static void main(String[] args) {
-        calculateLengthUC3();
+        CalculateLength calculatelength = new CalculateLength();
+        calculatelength.compareLines();
     }
 
 }
