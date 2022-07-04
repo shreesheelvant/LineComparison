@@ -4,7 +4,7 @@ package com.bridgelabz;
 import java.util.Scanner;
 
 public class CalculateLength {
-    public static void calculateLengthUC2() {
+    public static void calculateLengthUC3() {
         System.out.println("Calculate Length between two points");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter x1 : ");
@@ -32,13 +32,16 @@ public class CalculateLength {
 
         if (length == length) {
             System.out.println("Both lines are equal");
-        } else {
-            System.out.println("Both lines are not equal");
+        } else if (length > length1){
+            System.out.println("Line first are greater second line !");
+        }
+        else {
+            System.out.println("Line first are less than second line !");
         }
     }
 
     public static void main(String[] args) {
-        calculateLengthUC2();
+        calculateLengthUC3();
     }
 
 }
